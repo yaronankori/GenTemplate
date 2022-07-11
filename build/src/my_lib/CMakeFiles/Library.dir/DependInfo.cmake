@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/yaron/Desktop/projects/GenTemplate/src/my_lib/my_lib.cpp" "src/my_lib/CMakeFiles/Library.dir/my_lib.cpp.o" "gcc" "src/my_lib/CMakeFiles/Library.dir/my_lib.cpp.o.d"
+  "/home/yaron/Desktop/projects/Infrastruct_SBC/src/my_lib/my_lib.cpp" "src/my_lib/CMakeFiles/Library.dir/my_lib.cpp.o" "gcc" "src/my_lib/CMakeFiles/Library.dir/my_lib.cpp.o.d"
   )
 
 # Targets to which this target links.

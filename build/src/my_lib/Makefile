@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yaron/Desktop/projects/GenTemplate
+CMAKE_SOURCE_DIR = /home/yaron/Desktop/projects/Infrastruct_SBC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yaron/Desktop/projects/GenTemplate/build
+CMAKE_BINARY_DIR = /home/yaron/Desktop/projects/Infrastruct_SBC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/yaron/Desktop/projects/GenTemplate/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yaron/Desktop/projects/GenTemplate/build/CMakeFiles /home/yaron/Desktop/projects/GenTemplate/build/src/my_lib//CMakeFiles/progress.marks
-	cd /home/yaron/Desktop/projects/GenTemplate/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yaron/Desktop/projects/GenTemplate/build/CMakeFiles 0
+	cd /home/yaron/Desktop/projects/Infrastruct_SBC/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yaron/Desktop/projects/Infrastruct_SBC/build/CMakeFiles /home/yaron/Desktop/projects/Infrastruct_SBC/build/src/my_lib//CMakeFiles/progress.marks
+	cd /home/yaron/Desktop/projects/Infrastruct_SBC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yaron/Desktop/projects/Infrastruct_SBC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/yaron/Desktop/projects/GenTemplate/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/clean
+	cd /home/yaron/Desktop/projects/Infrastruct_SBC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/yaron/Desktop/projects/GenTemplate/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/preinstall
+	cd /home/yaron/Desktop/projects/Infrastruct_SBC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/yaron/Desktop/projects/GenTemplate/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/preinstall
+	cd /home/yaron/Desktop/projects/Infrastruct_SBC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/yaron/Desktop/projects/GenTemplate/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/yaron/Desktop/projects/Infrastruct_SBC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/my_lib/CMakeFiles/Library.dir/rule:
-	cd /home/yaron/Desktop/projects/GenTemplate/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/CMakeFiles/Library.dir/rule
+	cd /home/yaron/Desktop/projects/Infrastruct_SBC/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/my_lib/CMakeFiles/Library.dir/rule
 .PHONY : src/my_lib/CMakeFiles/Library.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ Library: src/my_lib/CMakeFiles/Library.dir/rule
 
 # fast build rule for target.
 Library/fast:
-	cd /home/yaron/Desktop/projects/GenTemplate/build && $(MAKE) $(MAKESILENT) -f src/my_lib/CMakeFiles/Library.dir/build.make src/my_lib/CMakeFiles/Library.dir/build
+	cd /home/yaron/Desktop/projects/Infrastruct_SBC/build && $(MAKE) $(MAKESILENT) -f src/my_lib/CMakeFiles/Library.dir/build.make src/my_lib/CMakeFiles/Library.dir/build
 .PHONY : Library/fast
 
 my_lib.o: my_lib.cpp.o
@@ -135,7 +135,7 @@ my_lib.o: my_lib.cpp.o
 
 # target to build an object file
 my_lib.cpp.o:
-	cd /home/yaron/Desktop/projects/GenTemplate/build && $(MAKE) $(MAKESILENT) -f src/my_lib/CMakeFiles/Library.dir/build.make src/my_lib/CMakeFiles/Library.dir/my_lib.cpp.o
+	cd /home/yaron/Desktop/projects/Infrastruct_SBC/build && $(MAKE) $(MAKESILENT) -f src/my_lib/CMakeFiles/Library.dir/build.make src/my_lib/CMakeFiles/Library.dir/my_lib.cpp.o
 .PHONY : my_lib.cpp.o
 
 my_lib.i: my_lib.cpp.i
@@ -143,7 +143,7 @@ my_lib.i: my_lib.cpp.i
 
 # target to preprocess a source file
 my_lib.cpp.i:
-	cd /home/yaron/Desktop/projects/GenTemplate/build && $(MAKE) $(MAKESILENT) -f src/my_lib/CMakeFiles/Library.dir/build.make src/my_lib/CMakeFiles/Library.dir/my_lib.cpp.i
+	cd /home/yaron/Desktop/projects/Infrastruct_SBC/build && $(MAKE) $(MAKESILENT) -f src/my_lib/CMakeFiles/Library.dir/build.make src/my_lib/CMakeFiles/Library.dir/my_lib.cpp.i
 .PHONY : my_lib.cpp.i
 
 my_lib.s: my_lib.cpp.s
@@ -151,7 +151,7 @@ my_lib.s: my_lib.cpp.s
 
 # target to generate assembly for a file
 my_lib.cpp.s:
-	cd /home/yaron/Desktop/projects/GenTemplate/build && $(MAKE) $(MAKESILENT) -f src/my_lib/CMakeFiles/Library.dir/build.make src/my_lib/CMakeFiles/Library.dir/my_lib.cpp.s
+	cd /home/yaron/Desktop/projects/Infrastruct_SBC/build && $(MAKE) $(MAKESILENT) -f src/my_lib/CMakeFiles/Library.dir/build.make src/my_lib/CMakeFiles/Library.dir/my_lib.cpp.s
 .PHONY : my_lib.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/yaron/Desktop/projects/GenTemplate/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/yaron/Desktop/projects/Infrastruct_SBC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

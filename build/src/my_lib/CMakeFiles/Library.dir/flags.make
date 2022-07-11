@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/yaron/Desktop/projects/GenTemplate/src/my_lib/. -I/home/yaron/Desktop/projects/GenTemplate/build/configured_files/include
+CXX_INCLUDES = -I/home/yaron/Desktop/projects/Infrastruct_SBC/src/my_lib/. -I/home/yaron/Desktop/projects/Infrastruct_SBC/build/configured_files/include
 
 CXX_FLAGS = 
 

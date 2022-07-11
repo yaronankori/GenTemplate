@@ -1,4 +1,4 @@
-# Install script for directory: /home/yaron/Desktop/projects/GenTemplate/src
+# Install script for directory: /home/yaron/Desktop/projects/Infrastruct_SBC/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/yaron/Desktop/projects/GenTemplate/build/src/my_lib/cmake_install.cmake")
+  include("/home/yaron/Desktop/projects/Infrastruct_SBC/build/src/my_lib/cmake_install.cmake")
 
 endif()
 

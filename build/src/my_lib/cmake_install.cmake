@@ -1,4 +1,4 @@
-# Install script for directory: /home/yaron/Desktop/projects/GenTemplate/src/my_lib
+# Install script for directory: /home/yaron/Desktop/projects/Infrastruct_SBC/src/my_lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

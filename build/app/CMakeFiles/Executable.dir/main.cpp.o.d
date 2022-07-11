@@ -1,5 +1,5 @@
 app/CMakeFiles/Executable.dir/main.cpp.o: \
- /home/yaron/Desktop/projects/GenTemplate/app/main.cpp \
+ /home/yaron/Desktop/projects/Infrastruct_SBC/app/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -145,5 +145,5 @@ app/CMakeFiles/Executable.dir/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/yaron/Desktop/projects/GenTemplate/src/my_lib/./my_lib.h \
- /home/yaron/Desktop/projects/GenTemplate/build/configured_files/include/config.hpp
+ /home/yaron/Desktop/projects/Infrastruct_SBC/src/my_lib/./my_lib.h \
+ /home/yaron/Desktop/projects/Infrastruct_SBC/build/configured_files/include/config.hpp
